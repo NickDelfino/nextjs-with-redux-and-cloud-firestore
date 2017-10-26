@@ -59,7 +59,7 @@ my-app/
   store.js
 ```
 
-##Setting Up Cloud Firestore
+## Setting Up Cloud Firestore
 
 Cloud firestore setup is similar to firebase realtime database setup. 
 
