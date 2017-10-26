@@ -9,7 +9,7 @@ const Nav = () => (
       <Navbar.Header>
         <Navbar.Brand>
           <a href="/">
-            <img className="logo-item" src="/static/wyp-icon.png"/>
+            <img className="logo-item" src="/static/favicon.ico"/>
             Post It
           </a>
         </Navbar.Brand>

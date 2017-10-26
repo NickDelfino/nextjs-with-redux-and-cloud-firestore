@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import PostItem from './PostItem';
 import AddPost from '../components/AddPost';
 import { fetchPosts } from '../actions';
-import LoadingSpinner from './LoadingSpinner';
+import LoadingSpinner from './Loading';
 
 class postList extends React.Component{
   static getInitialProps ({ store, isServer }) {
