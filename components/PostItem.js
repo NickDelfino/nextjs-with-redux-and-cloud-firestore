@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Displays the text from the posts that come in from the listener.
 const postItem = ({ post }) => (
     <div className='post-item'>
       <p className='post-text'>

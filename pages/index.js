@@ -4,7 +4,7 @@ import withRedux from 'next-redux-wrapper'
 import Nav from '../components/Nav';
 import PostList from '../components/PostList';
 
-class Counter extends React.Component {
+class Posts extends React.Component {
   render () {
     return (
         <div className='list'>
@@ -15,4 +15,4 @@ class Counter extends React.Component {
   }
 }
 
-export default withRedux(initStore, null, null)(Counter)
+export default withRedux(initStore, null, null)(Posts)

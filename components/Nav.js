@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Navbar } from 'react-bootstrap';
 import Head from './Head';
 
+//Basic nav component.
 const Nav = () => (
     <Navbar style={{ background: '#fff', margin: '0' }}>
       <Head  title={'Post It'} />

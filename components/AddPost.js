@@ -6,10 +6,12 @@ import TextareaAutosize from 'react-autosize-textarea';
 import { updateUserPost, addPost } from '../actions'
 
 class AddPost extends React.Component {
+  //When user clicks add post fire the add post event.
   onClick(){
     this.props.addPost(this.props.userPost);
   }
 
+  //Update user text input as they type by firing this action.
   handleChange(event){
     this.props.updateUserPost(event.target.value);
   }

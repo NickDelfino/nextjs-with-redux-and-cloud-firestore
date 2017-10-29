@@ -1,5 +1,4 @@
 import NextHead from 'next/head'
-import { string } from 'prop-types'
 
 const defaultDescription = '';
 const defaultOGURL = '';
@@ -24,12 +23,5 @@ const Head = (props) => (
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"/>
   </NextHead>
 );
-
-Head.propTypes = {
-  title: string,
-  description: string,
-  url: string,
-  ogImage: string
-};
 
 export default Head

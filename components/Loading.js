@@ -3,6 +3,7 @@
  */
 import React from 'react';
 
+//Generic loading spinner.
 const LoadingSpinner = () => (
   <div className="center-spinner">
     Loading...
