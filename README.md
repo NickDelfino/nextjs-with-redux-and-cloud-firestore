@@ -1,6 +1,5 @@
 ## Table of Contents
 
-- [The Sample App](#sample-app)
 - [Questions, Comments, Concerns](#questions-feedback)
 - [Dependencies and Inspiration](#dependencies-and-inspiration)
 - [Setting Up Cloud Firestore](#setting-up-cloud-firestore)
@@ -11,9 +10,6 @@
   - [npm run start](#npm-run-start)
 - [Setup and Running Example](#running-example)
 - [Live Demo](#live-demo)
-
-## The Sample App
-
 
 ## Questions, Comments, Concerns
 
