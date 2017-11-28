@@ -1,5 +1,6 @@
 ## Table of Contents
 
+- [App Description](#app-description)
 - [Questions, Comments, Concerns](#questions-feedback)
 - [Dependencies and Inspiration](#dependencies-and-inspiration)
 - [Setting Up Cloud Firestore](#setting-up-cloud-firestore)
@@ -10,6 +11,10 @@
   - [npm run start](#npm-run-start)
 - [Setup and Running Example](#running-example)
 - [Live Demo](#live-demo)
+
+## App Description
+
+This sample app demonstrates how to create a live list updated by user input in the provided status textbox using reactjs, next.js, redux, and cloud firestore (a firebase product).
 
 ## Questions, Comments, Concerns
 
