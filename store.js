@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunkMiddleware from 'redux-thunk'
-import { PostReducer } from './reducers/PostReducer';
+import reducer from './reducers/index';
 
 export const initialState = {
   posts: [],
@@ -9,5 +9,5 @@ export const initialState = {
 };
 
 export const initStore = (initialState = initialState) => {
-  return createStore(PostReducer, initialState, composeWithDevTools(applyMiddleware(thunkMiddleware)))
+  return createStore(reducer, initialState, composeWithDevTools(applyMiddleware(thunkMiddleware)))
 };
