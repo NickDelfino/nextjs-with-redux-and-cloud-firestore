@@ -112,6 +112,6 @@ specified for it to run. Heroku needs this for deployment.
 
 ## Live Demo
 
-To see how these ideas work in practice check out [whatsyourprob.io](http://whatsyourprob.io). 
+To see how these ideas work in practice check out [whatsyourprob](https://whats-your-problem.herokuapp.com/). 
 This sample project is its base.  
 
