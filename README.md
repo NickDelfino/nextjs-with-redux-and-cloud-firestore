@@ -109,9 +109,3 @@ Starts the application in production mode.
 This script is made with heroku in mind. There is a port variable that needs to be
 specified for it to run. Heroku needs this for deployment.
 
-
-## Live Demo
-
-To see how these ideas work in practice check out [whatsyourprob](https://whats-your-problem.herokuapp.com/). 
-This sample project is its base.  
-
